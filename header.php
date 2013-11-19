@@ -35,6 +35,6 @@
 	</head>
 	<body <?php body_class(); ?>>
 		<div class="site-header">
-		   <a href="<?php get_bloginfo('siteurl'); ?>"><img class="headerimg" src="http://noblevitae.com/rltitle.png" alt="Redlisted"></a>
+		   <a href="<?php echo get_bloginfo('wpurl'); ?>"><img class="headerimg" src="http://noblevitae.com/rltitle.png" alt="Redlisted"></a>
 		  </div>	
 			<!-- /header -->

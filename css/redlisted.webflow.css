@@ -150,6 +150,9 @@ p {
   font-weight: 700;
   text-align: center;
 }
+.nav-box:hover {
+  background-color: #efefef;
+}
 .nav-box-link {
 color: black;
 text-decoration: none;
