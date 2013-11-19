@@ -5,9 +5,16 @@ body {
   font-size: 12px;
   line-height: 20px;
 }
+a {
+  color: #008072;
+}
+a:visited {
+  #333;
+}
 h1 {
   margin: 10px 0px;
-  color: #e3d5d5;
+  font-family: Aclonica, sans-serif;
+  color: #008072;
   font-size: 38px;
   line-height: 44px;
   font-weight: 700;
@@ -21,11 +28,15 @@ h2 {
   font-weight: 700;
   text-shadow: none;
 }
+h2 a {
+  color: #b3b3b3;
+}
 h3 {
   margin: 10px 0px;
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
+  color: #b3b3b3;
 }
 h4 {
   margin: 10px 0px;
@@ -98,8 +109,14 @@ p {
   margin-right: 100px;
   margin-left: 15px;
 }
-.article {
+.content h1 {
   margin-top: 40px;
+}
+.article {
+  margin-top: 20px;
+}
+.article p {
+  font-size: 1.2em;
 }
 .site-header {
   position: absolute;
@@ -197,4 +214,9 @@ cursor: pointer;
 @media (max-width: 767px) {
 }
 @media (max-width: 479px) {
+}
+.footer {
+  float: left;
+  clear: both;
+  margin-top: 101%;
 }

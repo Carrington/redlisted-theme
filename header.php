@@ -21,6 +21,7 @@
  		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/normalize.css">
 	        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/webflow.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/redlisted.webflow.css">
+                <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/redlisted.wordpress.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
 	 	<script>
 			WebFont.load({
@@ -29,7 +30,7 @@
 				}
 		       });
 	        </script>
-		<script type="text/javascript" src="js/jquery.js" defer></script>
+		<script type="text/javascript" src=""<?php echo get_template_directory_uri(); ?>/js/jquery.js" defer></script>
 
 	</head>
 	<body <?php body_class(); ?>>

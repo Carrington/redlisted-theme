@@ -1,0 +1,12 @@
+span.date {
+  color: #c4c4c4;
+}
+
+span.author {
+  color: #c4c4c4;
+  padding-left: 15px;
+}
+
+span.comments {
+  padding-left: 15px;
+}

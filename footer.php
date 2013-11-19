@@ -1,3 +1,4 @@
+			<br class='cf' />
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 				
