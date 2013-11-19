@@ -31,6 +31,9 @@ h2 {
 h2 a {
   color: #b3b3b3;
 }
+h2.page-title {
+  margin: 50px 0px;
+}
 h3 {
   margin: 10px 0px;
   font-size: 24px;
