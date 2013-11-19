@@ -1,20 +1,20 @@
 <?php get_header(); ?>
 
 	<!-- section -->
-	<section role="main">
+	<div class='content' role="main">
 	
 		<!-- article -->
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		
-			<h1><?php _e( 'Page not found', 'html5blank' ); ?></h1>
+			<h1><?php _e( 'Page not found', 'redlisted' ); ?></h1>
 			<h2>
-				<a href="<?php echo home_url(); ?>"><?php _e( 'Return home?', 'html5blank' ); ?></a>
+				<a href="<?php echo home_url(); ?>"><?php _e( 'Return home?', 'redlisted' ); ?></a>
 			</h2>
 			
 		</article>
 		<!-- /article -->
 		
-	</section>
+	</div>
 	<!-- /section -->
 	
 <?php get_sidebar(); ?>
