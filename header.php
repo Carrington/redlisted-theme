@@ -14,7 +14,7 @@
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 		
 		<!-- icons -->
-		<link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.gif" rel="shortcut icon">
+		<link href="<?php echo get_template_directory_uri(); ?>/images/icons/favicon.gif" rel="shortcut icon">
 			
 		<!-- css + javascript -->
 		<?php wp_head(); ?>
