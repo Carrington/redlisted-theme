@@ -10,3 +10,7 @@ span.author {
 span.comments {
   padding-left: 15px;
 }
+
+body.admin-bar .leftbar, body.admin-bar .content{
+top: 125px;
+}
