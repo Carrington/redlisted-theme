@@ -20,28 +20,9 @@
 		<!-- /article -->
 		
 	<?php endwhile; ?>
-
-        	<div id='novels-posts' class='post-feed'>
-			<h3>Recent Posts About Redlisted Novels</h3>
-			<?php 
-				$id = get_cat_ID('novels');
-				$args = array ('category' => $id,
-				'orderby' => 'post_date');
-				$posts = get_posts($args);
-				$max = (count($posts) >= 5) ? 4 : count($posts);
-				for ($i = 0; $i<$max; $i++) {
-					setup_postdata($posts[$i]);
-					echo "<p>\n";
-					echo "<a href=\"";
-					the_permalink();
-					echo "\">";
-					the_title();
-					echo "</a></p>\n";
-				}
-					
-			?>
- 		</div>
-	
+	<?php $widgetNL = new WYSIJA_NL_Widget(true);
+	echo $widgetNL->widget(array('form' => 1, 'form_type' => 'php'));
+	?>
 	<?php else: ?>
 	
 		<!-- article -->

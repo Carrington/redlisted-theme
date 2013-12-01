@@ -1,7 +1,7 @@
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 	
 	<!-- article -->
-	<article id="post-<?php the_ID(); ?>" <?php post_class('article'); ?>>
+	<div id="post-<?php the_ID(); ?>" <?php post_class('article'); ?>>
 	
 		<!-- post thumbnail -->
 		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
@@ -27,7 +27,7 @@
 		
 		<?php edit_post_link(); ?>
 		
-	</article>
+	</div>
 	<!-- /article -->
 	
 <?php endwhile; ?>
@@ -35,9 +35,9 @@
 <?php else: ?>
 
 	<!-- article -->
-	<article>
+	<div>
 		<h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
-	</article>
+	</div>
 	<!-- /article -->
 
 <?php endif; ?>

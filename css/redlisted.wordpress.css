@@ -14,3 +14,25 @@ span.comments {
 body.admin-bar .leftbar, body.admin-bar .content{
 top: 125px;
 }
+
+p.scattergories {
+  color: #c4c4c4;
+  font-family: Arial, sans-serif;
+  font-size: .8em;
+}
+
+div.comments {
+  margin-top: 30px;
+}
+
+div.comments h2 {
+  font-size: 2em
+}
+
+div.comments h3 {
+  font-size: 1.5em;
+}
+
+p.form-allowed-tags {
+  width: 400px;
+}
